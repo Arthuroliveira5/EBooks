@@ -5,7 +5,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
-import com.ebookc.bookapp.presentation.AllBooksByCategory.BooksByCategoryScreen
+import com.ebookc.bookapp.presentation.BooksByCategoryScreen
+
 import com.ebookc.bookapp.presentation.HomeScreen.HomeScreen
 import com.ebookc.bookapp.presentation.UiComponents.PdfViewerScreen
 

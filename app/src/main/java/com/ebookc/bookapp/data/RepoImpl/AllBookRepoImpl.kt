@@ -1,5 +1,6 @@
 package com.ebookc.bookapp.data.RepoImpl
 
+import android.util.Log
 import com.ebookc.bookapp.common.BookCategoryModel
 import com.ebookc.bookapp.common.BookModel
 import com.ebookc.bookapp.common.ResultState
@@ -39,17 +40,23 @@ class AllBookRepoImpl @Inject constructor(
 
     override fun getAllCategory(): Flow<ResultState<List<BookCategoryModel>>> = callbackFlow {
         trySend(ResultState.Loading)
+        Log.d("Firebase", "Buscando categorias...")
 
-        val ref = firebaseDatabase.reference.child("BookCategory")
+        val ref = firebaseDatabase.reference.child("BooksCategory")
         val listener = object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val items = snapshot.children.mapNotNull {
-                    it.getValue(BookCategoryModel::class.java)
+                    Log.d("Firebase", "Item: ${it.value}")
+                    it.getValue(BookCategoryModel::class.java)?.also { model ->
+                        Log.d("Firebase", "Modelo convertido: $model")
+                    }
                 }
-                trySend(ResultState.Success(items)).isSuccess
+                Log.d("Firebase", "Total de categorias encontradas: ${items.size}")
+                trySend(ResultState.Success(items))
             }
 
             override fun onCancelled(error: DatabaseError) {
+                Log.e("Firebase", "Erro ao buscar categorias: ${error.message}")
                 trySend(ResultState.Error(error.toException()))
             }
         }
@@ -67,8 +74,11 @@ class AllBookRepoImpl @Inject constructor(
         val listener = object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val items = snapshot.children
-                    .mapNotNull { it.getValue(BookModel::class.java) }
+                    .mapNotNull { it.getValue(BookModel::class.java)
+
+                    }
                     .filter { it.category == category }
+
 
                 trySend(ResultState.Success(items)).isSuccess
             }
@@ -76,6 +86,7 @@ class AllBookRepoImpl @Inject constructor(
             override fun onCancelled(error: DatabaseError) {
                 trySend(ResultState.Error(error.toException()))
             }
+
         }
 
         ref.addValueEventListener(listener)
