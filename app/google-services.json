@@ -1,0 +1,486 @@
+{
+  "project_info": {
+    "project_number": "892398035345",
+    "firebase_url": "https://somemusica2-default-rtdb.firebaseio.com",
+    "project_id": "somemusica2",
+    "storage_bucket": "somemusica2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:85d3fe3d9c78c82f3a3a30",
+        "android_client_info": {
+          "package_name": "com.ebookc.bookapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:2456ab5fdab42dcd3a3a30",
+        "android_client_info": {
+          "package_name": "com.homilia.api.liturgiadiaria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:ca47aabc00051e653a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.arabia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:f085e4092d9b58b23a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.australia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:ecceff19b5164da53a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.canada"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:7f8c9d797e0592db3a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.cotema"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:8e7299cfcb9168e73a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.haiti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:878c536162f1dca03a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.hungary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:6ce6778a1ee861d73a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.jamaica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:c598327109347fc03a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.kzcazakistan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:015ab83a088eddca3a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.leban"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:d3ab4a2afd571d003a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.netherlands"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:a023d8d7e8e7e1bd3a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.newzealand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:5635fe113cb03ac93a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.paraguay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:741246f20eeda4763a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.serbia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:84aa7f3d679842e03a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.siria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:1015adbb7936a4493a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.southkorea"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:82ab0ad479eb67623a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.uae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:c59ceb6f146fe6333a3a30",
+        "android_client_info": {
+          "package_name": "news.radio.ukraine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:29cb212a1904772c3a3a30",
+        "android_client_info": {
+          "package_name": "news.radios.poland"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:e8a61e426bb83efe3a3a30",
+        "android_client_info": {
+          "package_name": "news.usamerica.radio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:0ec22bfcbaa7c75a3a3a30",
+        "android_client_info": {
+          "package_name": "noticias.radio.bolivia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:7768e9dac71042bd3a3a30",
+        "android_client_info": {
+          "package_name": "noticias.radio.ecuador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:9304e9903c4b705b3a3a30",
+        "android_client_info": {
+          "package_name": "noticias.radio.elsalvador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892398035345:android:1639c768d00ba82a3a3a30",
+        "android_client_info": {
+          "package_name": "noticias.radio.honduras"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyohKMdM9N-wACAEITqoddIANK-5G2s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
