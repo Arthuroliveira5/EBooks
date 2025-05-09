@@ -1,2 +1,53 @@
-app/google-services.json
+# Arquivos padrão do Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
+# Arquivos de configuração sensíveis
+app/google-services.json
+app/src/debug/google-services.json
+app/src/release/google-services.json
+*.keystore
+*.jks
+
+# Arquivos gerados pelo build
+app/build/
+build/
+bin/
+gen/
+out/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Arquivos de log
+*.log
+/logs/
+
+# Arquivos do Hilt/Dagger
+dagger_*/
+hilt_*/
